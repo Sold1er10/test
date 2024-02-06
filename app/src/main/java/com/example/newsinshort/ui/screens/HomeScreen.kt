@@ -67,7 +67,7 @@ fun HomeScreen(
             is ResourceState.Error -> {
                 val errorMessage = (newsUiState as ResourceState.Error).message
                 Log.e(TAG, "HomeScreen: $errorMessage")
-                // added something
+                // test
             }
 
         }
